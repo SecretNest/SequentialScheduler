@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <RootNamespace>SecretNest.TaskSchedulers</RootNamespace>
+    <PackageId>SecretNest.SequentialScheduler</PackageId>
+    <Authors>Allen Cui</Authors>
+    <Company>SecretNest.info</Company>
+    <Description>Defines a task scheduler that run tasks on a single thread.</Description>
+    <PackageProjectUrl>https://github.com/SecretNest/SequentialScheduler</PackageProjectUrl>
+    <Product>SequentialScheduler</Product>
+    <Copyright>Allen Cui</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <AssemblyName>SecretNest.RemoteAgency</AssemblyName>
+    <Configurations>Debug;Release</Configurations>
+    <RepositoryUrl>https://github.com/SecretNest/SequentialScheduler</RepositoryUrl>
+    <PackageTags>TaskScheduler SingleThread</PackageTags>
+    <DocumentationFile>bin\RemoteAgency.xml</DocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
