@@ -44,3 +44,6 @@ var result = taskFactory.StartNew(action);
 ```
 
 **Note: This class is implemented from IDisposable. Don't forget to dispose it.**
+
+# Release
+Package is on Nuget: https://www.nuget.org/packages/SecretNest.SequentialScheduler
