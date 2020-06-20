@@ -5,6 +5,8 @@ Defines a task scheduler that run tasks on a single thread.
 This code mainly is from https://codereview.stackexchange.com/questions/43814/taskscheduler-that-uses-a-dedicated-thread. Additional code for passing thread is added.
 
 # Use
+Class is defined with name ``SecretNest.TaskSchedulers.SequentialScheduler``.
+
 To initialize an instance with a new free thread:
 ```
 var scheduler = new SequentialScheduler();
