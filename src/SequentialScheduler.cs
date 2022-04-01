@@ -85,6 +85,9 @@ namespace SecretNest.TaskSchedulers
             return false;
         }
 
+        /// <inheritdoc />
+        public override int MaximumConcurrencyLevel => 1;
+
         #region IDisposable Support
 
         private volatile bool _disposedValue;

@@ -12,8 +12,8 @@
     <Copyright>Allen Cui</Copyright>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-    <Version>1.0.1</Version>
-    <PackageReleaseNotes>Rename assembly.</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Overrides MaximumConcurrencyLevel.</PackageReleaseNotes>
     <AssemblyName>SecretNest.SequentialScheduler</AssemblyName>
     <Configurations>Debug;Release</Configurations>
     <RepositoryUrl>https://github.com/SecretNest/SequentialScheduler</RepositoryUrl>
