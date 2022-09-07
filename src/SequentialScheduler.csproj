@@ -12,8 +12,8 @@
     <Copyright>Allen Cui</Copyright>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-    <Version>1.0.2</Version>
-    <PackageReleaseNotes>Overrides MaximumConcurrencyLevel.</PackageReleaseNotes>
+    <Version>1.1</Version>
+    <PackageReleaseNotes>Use background thread by default.</PackageReleaseNotes>
     <AssemblyName>SecretNest.SequentialScheduler</AssemblyName>
     <Configurations>Debug;Release</Configurations>
     <RepositoryUrl>https://github.com/SecretNest/SequentialScheduler</RepositoryUrl>

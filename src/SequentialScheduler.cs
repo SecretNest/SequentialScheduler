@@ -18,6 +18,15 @@ namespace SecretNest.TaskSchedulers
         readonly CancellationTokenSource _cancellation;
 
         /// <summary>
+        /// Gets or sets a value indicating whether or not a thread is a background thread.
+        /// </summary>
+        public bool IsThreadBackground
+        {
+            get => _thread.IsBackground;
+            set => _thread.IsBackground = value;
+        }
+
+        /// <summary>
         /// Initializes an instance of SequentialScheduler using a new free thread.
         /// </summary>
         /// <param name="waitForThread">Waiting for <see cref="Run"/> to provide thread. Default is <see langword="false"/>.</param>
@@ -28,7 +37,10 @@ namespace SecretNest.TaskSchedulers
             _cancellation = new CancellationTokenSource();
             if (!waitForThread)
             {
-                _thread = new Thread(Working);
+                _thread = new Thread(Working)
+                {
+                    IsBackground = true
+                };
                 _thread.Start();
             }
         }
